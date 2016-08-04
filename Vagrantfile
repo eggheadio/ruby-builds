@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.provision "shell", inline: <<-SHELL
-    RUBY_BUILD_VERSION=2.2.4
+    RUBY_BUILD_VERSION=2.3.1
     
     echo "\n\nPrepping to build ruby version ${RUBY_BUILD_VERSION}\n\n"
 
